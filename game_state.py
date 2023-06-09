@@ -2,6 +2,7 @@ from enum import Enum
 
 
 class GameState(Enum):
+    # nous associons un nombre au differents stade de jeu
     NOT_STARTED = 0
     ROUND_ACTIVE = 1
     ROUND_DONE = 2
