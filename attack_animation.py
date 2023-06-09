@@ -1,12 +1,7 @@
 from enum import Enum
 import arcade
 
-
-class AttackAnimation(arcade.Sprite):
-    ATTACK_SCALE = 0.50
-    ANIMATION_SPEED = 5.0
-
-
+# j associe un nombre a chaque type d attaque
 class AttackType(Enum):
     ROCK = 0,
     PAPER = 1,
